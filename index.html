@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <title>MyProfile</title>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
 </head>
 <body>
-    
+  <nav class="navbar-brand">
+    <a href="index.html">AP Solutions</a>
+</nav>
+<div class="main-div">
+  <h1><p>Profile Page</p></h1>
+  <img src="Alesh (2).jpg" class="img1">
+  <div class="section1">
+        <h2><p>Hii, I am Alesh Patil, I am 21 years old, living in shahada(Nandurbar), Maharashtra  </p></h2>
+        <h3><p>I recently comleted my BCA from IMRD College, under KBC North Maharashtra University, Jalgaon in year 2023</p></h3>
+        <h3><p>Now, I am pursuing MCA from KBC North Maharashtra University, Jalgaon</p></h3>
+  </div>
+  <br>
+<button class="btn">Thank You !</button>
+</div>
+
+
+  <script>
+   let btn=document.querySelector('button');
+       btn.addEventListener('click',showMsg);
+       function showMsg(){
+         alert("Thank You for visiting my profile page!🙏🙏🙏");
+       }
+  </script>
 </body>
 </html>
