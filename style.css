@@ -1,5 +1,5 @@
 *{
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 nav{
     width: 100%;
@@ -19,20 +19,20 @@ img{
     width: 150px;
     border-radius:50%;
     align-self: center;
-    box-shadow: #3b0644 2px 5px;
+    box-shadow: #f5f2f5 2px 5px;
     }
 body{margin:0;
     display: flex;
-    background-color: 030637;
+    background-color: #282828;
     
 }
 .section{ max-width: 100vh;}
 .main-div{align-self: center;
-    background-color: #553D67;
-    color: white;
+    background-color: #282828;
+    color: #c6c7c8;
     height: 100vh;
     width: 1000%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,12 +43,21 @@ button{
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
-    border: 1px solid rgb(248, 247, 247);
-    background-color: #3a2a47;
-    color: rgb(10, 9, 9);
+    color:black;
+    background-color: rgb(210, 245, 178);
     box-shadow: 1px 1px 1px rgb(145, 148, 147);
     border-radius: 10px;
     padding: 3px 10px;
     display: inline-block;
     cursor: pointer;
+}
+button:hover{
+    box-shadow: 2px 2px 8px gold;
+    color : white;
+}
+img:hover{
+    box-shadow: 2px 5px 10px #66fcf1;;
+}
+.section1:hover{
+    color: white;
 }
